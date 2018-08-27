@@ -167,7 +167,7 @@ public class SiraAl : MonoBehaviour {
 
 
             if (nmusteri.oncelik_sayac==oncelik_derecesi)
-            {   //2 kere önüne geçilen normal musterinin önüne artık geçilmez(10 normal musteriye kadar) normal musteri işleme girer
+            {   //2 kere önüne geçilen normal musterinin önüne artık geçilmez(6 normal musteriye kadar) normal musteri işleme girer
                 islem_sirasi.Enqueue(normal_musteri_sirasi.Dequeue());
                
             }
