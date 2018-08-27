@@ -22,7 +22,7 @@ public class SiraAl : MonoBehaviour {
     Queue<Musteri> banka_musteri_sirasi = new Queue<Musteri>();
     Queue<Musteri> normal_musteri_sirasi = new Queue<Musteri>();
     List<Vezne> vezneler = new List<Vezne>();
-    int normal_sayac = 0,banka_musterisi_sayac=1000,oncelik_sayac=0,oncelik_derecesi=2;
+    int normal_sayac = 0,banka_musterisi_sayac=1000,oncelik_derecesi=2;
     public void OpenDB()
     {
         string DbName = "banka.db3";
